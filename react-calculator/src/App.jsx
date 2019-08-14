@@ -62,6 +62,7 @@ class App extends Component {
     })
   };
 
+
   render() {
     return (
       <div className="app">
@@ -83,7 +84,7 @@ class App extends Component {
             <Button handleClick={this.addToInput}>1</Button>
             <Button handleClick={this.addToInput}>2</Button>
             <Button handleClick={this.addToInput}>3</Button>
-            <Button handleClick={this.addToInputPlus}>+</Button>
+            <Button handleClick={this.addToInput}>+</Button>
           </div>
           <div className="row">
             <Button handleClick={this.addToInput}>.</Button>
