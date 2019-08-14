@@ -1,4 +1,4 @@
-.App {
+.app {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-.wrapper-calc {
+.calc-wrapper {
   width: 400px;
   height: 600px;
 }
